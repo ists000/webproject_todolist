@@ -1,13 +1,13 @@
 class Task {
-    #id
+    #id 
     #text
 
-    constructor(id,text) {
+    constructor(id,text){
         this.#id = id
         this.#text = text
     }
 
-    getId() {
+    getId = () => {
         return this.#id
     }
 
